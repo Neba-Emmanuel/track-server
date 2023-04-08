@@ -48,8 +48,8 @@ userSchema.pre('save', function(next){
                 }
 
                 resolve(true);
-            })
-        })
+            });
+        });
     }
 })
 
